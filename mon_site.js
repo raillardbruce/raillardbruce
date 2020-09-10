@@ -158,6 +158,30 @@ buttonsun.addEventListener("mouseout", function(event){
     acceuil.classList.remove("functionbuttonhidden")
 });
 
+colonne1.addEventListener("mouseover", function(){
+    colonne1.classList.add("mousecolonne")
+})
+
+colonne1.addEventListener("mouseout", function(){
+    colonne1.classList.remove("mousecolonne")
+})
+
+colonne2.addEventListener("mouseover", function(){
+    colonne2.classList.add("mousecolonne")
+})
+
+colonne2.addEventListener("mouseout", function(){
+    colonne2.classList.remove("mousecolonne")
+})
+
+colonne3.addEventListener("mouseover", function(){
+    colonne3.classList.add("mousecolonne")
+})
+
+colonne3.addEventListener("mouseout", function(){
+    colonne3.classList.remove("mousecolonne")
+})
+
 
 
 

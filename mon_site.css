@@ -677,4 +677,40 @@
   border: solid 5px white;
 }
 
+.document{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 1%;
+}
+
+.sous-document{
+  width: 25%;
+  background-color: white;
+  border: solid 2px black;
+  padding: 2%;
+}
+
+.documents{
+  text-align: center;
+  color: #FC3D50;
+  font-family: 'Grandstander', cursive;
+  font-size: 20px;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.lesliens{
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+}
+
+.mousecolonne{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+}
+
 
