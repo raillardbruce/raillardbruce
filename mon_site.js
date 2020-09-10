@@ -188,4 +188,3 @@ colonne3.addEventListener("mouseout", function(){
 
 
 
-

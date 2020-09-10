@@ -19,7 +19,6 @@
         }
 
             .d1 {
-                width: 90%;
                 height: 600px;
                 margin: 1%;
                 display: none;
@@ -711,6 +710,94 @@
 .mousecolonne{
   background-color: rgba(255, 255, 255, 0.8);
   color: #000000;
+}
+
+.pdp2{
+  display: none;
+}
+
+.sous-document2{
+  display: none;
+}
+
+@media only screen and (max-width: 425px){
+
+  .bb {
+    display: none;
+  }
+
+  .d1{
+    flex-flow: column;
+  }
+
+  .pdp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .text1{
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .lesimages{
+    width: 119px;
+    height: 212px;
+    border: solid 3px black;
+  }
+
+  .profession{
+    font-size: 20px;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    margin-top: 0;
+  }
+
+  .monnom{
+    font-size: 40px;
+    text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+  }
+
+  .sous-document{
+    display: none;
+  }
+  
+  .sous-document2{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    height: 125px;
+    background-color: white;
+    border: solid 2px black;
+    margin-left: 30px;
+  } 
+
+  .lesliens2{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+  }
+
+  .info_perso{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .sous_info{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Grandstander', cursive;
+    padding: 4%;
+    color: white;
+}
 }
 
 
