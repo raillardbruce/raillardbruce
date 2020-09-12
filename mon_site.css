@@ -97,6 +97,7 @@
                 justify-content: center;
                 align-items: center;
                 margin: 1%;
+                outline: none;
             }
             
             .buttonon {
@@ -135,13 +136,6 @@
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-}
-
-.informatique1{
-    text-align: left;
-    width: 50%;
-    color: #37414B;
-
 }
 
 .titre1{
@@ -261,6 +255,7 @@
 .logo_adobe2{
     padding: 3%;
     text-align: center;
+    width: 100%;
 }
 
 .sous_informatique{
@@ -733,6 +728,16 @@
   display: none;
 }
 
+.nav3{
+  display: none;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 425px){
 
   .bb {
@@ -818,7 +823,7 @@
   .montitre{
     width: 100%;
     height: auto;
-    margin-top: 0;
+    margin: 0;
   }
 
   .titre1{
@@ -830,6 +835,52 @@
 
   .cachecache{
     display: flex;
+  }
+
+  .colonne1_1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 1%;
+
+  }
+
+  .mescompetences{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .informatique3{
+    flex-flow: row wrap;
+  }
+
+  .logo_adobe2{
+    width: 50%;
+    height: auto;
+
+  }
+
+  .logo_adobe{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .nav3 {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar2{
+    display: flex;
+  }
+
+  .nav1{
+    display: none;
   }
 }
 

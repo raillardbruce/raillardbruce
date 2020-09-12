@@ -10,6 +10,9 @@ var body = document.getElementById("body");
 
 var nav = document.getElementById("navbar");
 
+var button3 = document.getElementById("button3")
+var button4 = document.getElementById("button4")
+
 var buttonsun =document.getElementById("buttonsun");
 
 
@@ -32,6 +35,7 @@ document.getElementById("buttonsun").addEventListener("click", function (){
 });
 
 
+
 document.getElementById("button2").addEventListener("click", function () {
 
     page1.classList.add("functionbuttonhidden");
@@ -48,6 +52,50 @@ document.getElementById("button2").addEventListener("click", function () {
 
     nav.classList.add("nav2");
     nav.classList.remove("nav1");
+
+
+});
+
+document.getElementById("button3").addEventListener("click", function () {
+
+    page1.classList.remove("functionbuttonhidden");
+    page2.classList.remove("functionbuttonvisible");
+
+    page1.classList.add("functionbuttonvisible");
+    page2.classList.add("functionbuttonhidden");
+
+    body.classList.remove("lebody2");
+    body.classList.add("lebody1");
+
+    button3.classList.add("buttonon")
+    button4.classList.add("buttonoff")
+
+    button3.classList.remove("buttonoff")
+    button4.classList.remove("buttonon")
+
+
+});
+
+document.getElementById("button4").addEventListener("click", function () {
+
+    page1.classList.add("functionbuttonhidden");
+    page2.classList.add("functionbuttonvisible");
+
+
+
+    page1.classList.remove("functionbuttonvisible");
+    page2.classList.remove("functionbuttonhidden");
+
+
+    body.classList.add("lebody2");
+    body.classList.remove("lebody1");
+
+    button3.classList.add("buttonoff")
+    button4.classList.add("buttonon")
+
+    button3.classList.remove("buttonon")
+    button4.classList.remove("buttonoff")
+
 
 
 });
