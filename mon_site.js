@@ -53,7 +53,6 @@ document.getElementById("button2").addEventListener("click", function () {
     nav.classList.add("nav2");
     nav.classList.remove("nav1");
 
-
 });
 
 document.getElementById("button3").addEventListener("click", function () {
