@@ -738,7 +738,7 @@
 
 
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 1024px){
 
   .bb {
     display: none;
@@ -747,6 +747,7 @@
   .d1{
     flex-flow: column;
     height: auto;
+    width: 100%;
   }
 
   .pdp2 {
@@ -825,6 +826,7 @@
     width: 100%;
     height: auto;
     margin: 0;
+
   }
 
   .titre1{
@@ -849,6 +851,7 @@
   .mescompetences{
     display: flex;
     flex-flow: column;
+    justify-content: center;
   }
 
   .informatique3{
@@ -883,11 +886,9 @@
   .nav1{
     display: none;
   }
+  
+  .organisation{
+    width: 100%;
+    justify-content: center;
+  }
 }
-
-
-
-
-
-
-
